@@ -1,19 +1,16 @@
 {
-  "currentId": 4,
+  "currentId": 1,
   "users": {
-    "3": {
+    "1": {
       "login": "gfc@ic.ufal.br",
       "password": "Gfc081197.",
       "name": "Gabriel Cerqueira",
       "category": "S",
-      "room": ""
-    },
-    "4": {
-      "login": "tomas@ic.ufal.br",
-      "password": "Gfc081197.",
-      "name": "Gabriel Cerqueira",
-      "category": "P",
-      "room": ""
+      "reserve": {
+        "room": "",
+        "timeReserverd": "",
+        "reserveTime": ""
+      }
     }
   }
 }

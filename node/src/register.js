@@ -8,9 +8,14 @@ const createUser = (obj)=>{
     if(isValid(obj) && !isDoubled(obj)){
         console.log('haha');
         file.currentId++;
-        obj.room = "";  
+        obj.reserve = {
+            room:"",
+            timeReserverd: "",
+            reserveTime:""
+        };  
         var aux =file.users; 
         file.users = Object.assign(aux, {[file.currentId]:obj}) 
+        console.log(obj);
         fs.writeFile(filePath, JSON.stringify(file, null, 2), function (err) {
             if (err) return console.log(err);
             console.log(JSON.stringify(file));

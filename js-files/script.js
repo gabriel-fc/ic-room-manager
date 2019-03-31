@@ -18,10 +18,8 @@ function postRequisition(obj, command){
 
 if((window.location.pathname).localeCompare('/home/gabriel/Documentos/Ic-room-manager/home-page.html') == 0){
 	postRequisition({}, '/get-user')
-	alert(user.room)
-	document.getElementById('userName').innerHTML = this.user.name
-	alert(document.getElementById('roomButton'));
-	((document.getElementById('roomButton'))).innerHTML = (this.user.room == "") ? "Reservar sala" : "Entregar chaves";
+	document.getElementById('userName').innerHTML = this.user.name;
+	((document.getElementById('roomButton'))).innerHTML = (this.user.reserve.room == "") ? "Reservar sala" : "Entregar chaves";
 
 }
 
