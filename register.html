@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>IC room manager - Aloque salas de forma prática!</title>
+	<link rel="stylesheet" type="text/css" href="css-files/register-style.css">
+
+
+</head>
+<body>
+	<script language="JavaScript" src="js-files/jquery.min.js"></script>
+	<script src="js-files/script.js"></script>
+
+	<div id="nav-bar">
+		<span id="logo">Cadastro</span>
+	</div>
+
+	<div id="login-box">
+
+		<form>
+			<fieldset>
+                <div id="input-box">
+                    <span class="input-id">E-mail:</span> 
+                    <span class="input-idR">Senha:</span>
+                    <input type="text" id="login" class="elementL">
+                    <input type="password" id="password" class="elementR">
+                    <span class="input-id">Nome:</span>
+                    <span class="input-idR">Categoria:</span>
+                    <input type="text" id="name" class="elementL" >
+                    <div class="elementR" class="elementR">
+                            <input type="radio" name="category" value="S" class="radio"> Aluno 
+                            <input type="radio" name="category" value="P" class="radio"> Professor
+                    </div>
+                </div>
+                <input type="button" onclick="onRegister()" id="submit" value="Cadastrar">
+
+			</fieldset>
+			
+
+		</form>
+
+        <div id="errorMsg">
+
+            </div>
+
+
+    </div>
+    
+  
+
+</body>
+</html>
