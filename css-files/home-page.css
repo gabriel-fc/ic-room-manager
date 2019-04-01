@@ -5,13 +5,14 @@ body{
     color: white;
 }
 
-#logo{
-	font-size: 3em;
-	font-weight: bold;
-	position: absolute;
-	top: 80px;
-	left: 34%;
-}
+    #logo{
+        width: max-content;
+        display: block;
+        font-size: 3em;
+        font-weight: bold;
+        margin: 0 auto;
+        padding-top: 1.5em;  
+    }
 
 
 
@@ -40,7 +41,7 @@ a:hover{
     border-radius: 10px;
 }
 
-.button{
+#roomButton {
     background-color: rgba(35, 32, 141, 0.8);
     color: white;
     width: 300px;
@@ -51,9 +52,9 @@ a:hover{
     margin-top: 50px;
 }
 #buttonBox{
-    position: absolute;
-    top: 300px;
-    left:37%;
-    width: 300px;
-    height: 200px;
+    display: block;
+    width: min-content;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 6em; 
 }

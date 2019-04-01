@@ -18,6 +18,7 @@ const compareLogin = (clientInput)=>{
             obj = comparePassword(clientInput, user)
         }
     })
+    console.log(obj)
     return obj
 
 }

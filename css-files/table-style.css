@@ -1,0 +1,68 @@
+
+body{
+    background: white url("../images/index-background.jpg") no-repeat;
+	background-size: cover;
+	font: 16px "Courier New", monospace;
+}
+table{
+    color: rgb(35, 32, 141); 
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+}
+
+th{
+    text-align: center;
+    padding: 7px;
+}
+
+td{
+    padding: 14px;
+}
+
+th td{
+    border: 1px solid rgb(35, 32, 141);
+    
+}
+
+tr:hover{
+    color: white;
+    background-color: rgb(35, 32, 141);
+    border-radius: 10px;
+}
+
+#nav-bar{
+	padding: 0px;
+	border-radius: 10px;
+	margin-top: 0;
+	background: rgba(35, 32, 141, 0.4);
+	color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height: 200px;
+	border: 0px;
+}
+
+#selectDiv{
+    margin: 0 auto;
+    width: max-content;
+    margin-top: 2em; 
+}
+
+select{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(35, 32, 141);
+    border: 0px;
+    height: 2em;
+}
+button{
+    width: 11em;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(35, 32, 141);
+    height: 2em; 
+
+}

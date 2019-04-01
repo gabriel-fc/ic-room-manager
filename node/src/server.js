@@ -1,5 +1,5 @@
 
-const port = 7070
+const port = 2222
 const _express = require('express')
 const app = _express()
 const _path =  require('path')
@@ -14,7 +14,6 @@ app.use(_bodyParser.urlencoded({extended: true}))
 app.post('/get-user', (req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('content-type', 'aplication/json')
-    console.log(this.obj)
     res.send(JSON.stringify(this.obj))
     
 })
@@ -37,8 +36,26 @@ app.post('/register', (req, res, next)=>{
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('content-type', 'aplication/json')
     var obj = req.body
-    res.send(JSON.stringify(_register.createUser(obj)))
-    //console.log(this.obj)
+    var registro = _register.createUser(obj);
+
+    console.log(`${Object.values(registro)}`)
+    res.send(JSON.stringify(registro))
 })
+
+app.post('/rooms-info', (req, res, next)=>{
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('content-type', 'aplication/json')
+    var rooms= require("../json-files/rooms.json")
+    res.send(JSON.stringify(rooms))
+})
+
+app.post('/alloc', (req, res, next)=>{
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('content-type', 'aplication/json')
+    var allocate = require('./allocate');
+    allocate.setAllocation(req.body);
+
+})
+
 
 app.listen(port)

@@ -1,0 +1,74 @@
+{
+  "auditorio": {
+    "key": "1",
+    "isAvailable": true,
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "lab1": {
+    "key": "2",
+    "isAvailable": true,
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "lab2": {
+    "key": "3",
+    "isAvailable": true,
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "lab3": {
+    "key": "4",
+    "isAvailable": true,
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "all",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "sala1": {
+    "key": "5",
+    "isAvailable": "true",
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "sala2": {
+    "key": "6",
+    "isAvailable": "true",
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "sala3": {
+    "key": "7",
+    "isAvailable": "true",
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "sala4": {
+    "key": "8",
+    "isAvailable": "true",
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "prof",
+    "material": "Chave, piloto, apagador, controle A/C"
+  },
+  "sEstudos": {
+    "key": "9",
+    "isAvailable": true,
+    "reserveTime": "",
+    "timeReserved": "",
+    "to": "all",
+    "material": "Chave, piloto, apagador, controle A/C"
+  }
+}

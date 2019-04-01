@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css-files/table-style.css">
+    </head>  
+    <body>
+            <script language="JavaScript" src="js-files/jquery.min.js"></script> 
+        <div id="nav-bar">
+
+        </div>
+
+        <form><table id="table">
+
+            <tr>
+                <th>Salas</th>
+                <th>Disponibilidade</th>
+                <th>Horário agendado</th>
+                <th>Material disponibilizado</th>
+                <th>Selecionar sala</th>
+            </tr> 
+            <tr>
+                <td>Auditório</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td id="audDiv">
+                </td>
+            </tr>
+            
+        <tr>
+                <td>Lab 1</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td id="l1Div">
+                </td>
+            </tr>
+            <tr>
+                    <td>Lab 2</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td id="l2Div">
+                    </td>
+                </tr>
+                <tr>
+                        <td>Lab 3</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td id="l3Div">
+                        </td>
+                    </tr>
+                    
+                <tr>
+                        <td>Sala 1</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td id="s1Div">
+                        </td>
+                    </tr>
+                    
+                <tr>
+                        <td>Sala 2</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td id="s2Div">
+                        </td>
+                    </tr>
+                    
+                <tr>
+                        <td>Sala 3</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td id="s3Div"> 
+                        </td>
+                    </tr>
+                    
+                <tr>
+                        <td>Sala 4</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td id="s4Div">
+                        </td>
+                    </tr>
+                    
+                <tr>
+                        <td>Sala de estudos</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td id="seDiv">
+                        </td>
+                    </tr>     
+        </table></form>
+
+        <div id="selectDiv">
+            <select id="select">
+                <option value="0.5">30 minutos</option>
+                <option value="1.0">1 hora</option>
+                <option value="1.5">1 hora e 30 minutos</option>
+                <option value="2.0">2 horas</option>
+            </select>
+            <button onclick="onAlocar()">Alocar</button>
+        </div>
+        <script src="js-files/script.js"></script>  
+    </body>  
+</html>
